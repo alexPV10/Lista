@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deseos</title>
+    <link rel="stylesheet" href="ARCHIVOS/loc.css">
+    <link rel="icon" href="estrella-de-navidad.png" type="image/x-icon">
+    <!-- Incluir la biblioteca estable de EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="left-section">
+            <h1>3 DESEOS 🌠</h1>
+            <input type="text" id="nameBox" placeholder="Escribe tu nombre">
+            <textarea id="messageBox" placeholder="Escribe tus deseos aquí..."></textarea>
+            <button id="saveButton">GUARDAR....</button>
+        </div>
+        <div class="right-section">
+            <ul id="messageList"></ul>
+            <p id="specialMessage"></p>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="ARCHIVOS/Artificial.Music-AndSoItBegins[Lo-fi].mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <script src="ARCHIVOS/loc.js"></script>
+
+</body>
+</html>
+
+<!-- proyecto hecho con ayuda de copilot, muchas gracias -->
